@@ -9,6 +9,8 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  rgb(2, 117, 216)
+  104, 82, 255;
  */
 :root {
   --bs-blue: #0d6efd;
@@ -41,7 +43,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 104, 82, 255;
+  --bs-primary-rgb: 2, 117, 216;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -3031,32 +3033,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: rgb(104, 82, 255);
-  border-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
+  border-color: rgb(2, 117, 216);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: rgb(104, 82, 255);
-  border-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
+  border-color: rgb(2, 117, 216);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: rgb(104, 82, 255);
-  border-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
+  border-color: rgb(2, 117, 216);
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: rgb(104, 82, 255);
-  border-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
+  border-color: rgb(2, 117, 216);
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: rgb(104, 82, 255);
-  border-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
+  border-color: rgb(2, 117, 216);
 }
 
 .btn-secondary {
@@ -11375,7 +11377,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: rgb(104, 82, 255);
+  color: rgb(2, 117, 216);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11397,11 +11399,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: rgb(104, 82, 255);
+    background: rgb(2, 117, 216);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: rgb(104, 82, 255);
+    background: rgb(2, 117, 216);
   }
 
   #mainNav.navbar-shrink {
@@ -11472,7 +11474,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgb(104, 82, 255);
+  background-color: rgb(2, 117, 216);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
