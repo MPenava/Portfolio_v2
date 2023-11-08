@@ -1,10 +1,3 @@
-loadCurrentYear(); 
-
-function loadCurrentYear(){
-    const year = new Date().getFullYear() 
-    document.getElementById("currentYear").innerText = year;
-}
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
